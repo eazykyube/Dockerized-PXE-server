@@ -4,7 +4,7 @@ DEFAULT ubuntu-auto
 LABEL ubuntu-auto
   MENU LABEL Install Ubuntu 18.04 automatically
   KERNEL /ubuntu/ubuntu-installer/amd64/linux
-  APPEND auto=true hostname="enesayan" url=https://gitlab.com/Apostrov/docker_playwork/raw/master/ubuntu/preseed.cfg vga=788 initrd=/ubuntu/ubuntu-installer/amd64/initrd.gz debian-installer=en_US locale=en_US kbd-chooser/method=us keyboard-configuration/modelcode=SKIP keyboard-configuration/layout=USA keyboard-configuration/variant=USA console-setup/ask_detect=false--- quiet 
+  APPEND auto=true hostname="enesayan" url=https://raw.githubusercontent.com/eazykyube/pxe/master/ubuntu/preseed.cfg vga=788 initrd=/ubuntu/ubuntu-installer/amd64/initrd.gz debian-installer=en_US locale=en_US kbd-chooser/method=us keyboard-configuration/modelcode=SKIP keyboard-configuration/layout=USA keyboard-configuration/variant=USA console-setup/ask_detect=false--- quiet 
 
 LABEL ubuntu-cli
   MENU LABEL Install Ubuntu 18.04 with command-line 
