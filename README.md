@@ -3,7 +3,7 @@
 > based on [https://github.com/ferrarimarco/docker-pxe](https://github.com/ferrarimarco/docker-pxe)
 
 ### Pre-requirements
-Docker!
+If you do not have Docker installed:
 ```bash
 $ curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
 ```
