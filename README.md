@@ -1,5 +1,7 @@
 # Dockerized PXE server
 
+Implementation of a docker image serving as a standalone PXE. Was done as an assignment within System and Netwrok Administration course of Innopolis University.
+
 > based on [https://github.com/ferrarimarco/docker-pxe](https://github.com/ferrarimarco/docker-pxe)
 
 ### Pre-requirements
